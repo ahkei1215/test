@@ -84,7 +84,7 @@ function updateStatusText(isOwner, checking) {
     }
   } else {
     if(isOwner) {
-      statusText.innerText = `You own ${editions.length} ${COLLECTION_NAME}!! 😻click <a href="https://whoisthisboy.com/" onclick="handler(); return false;">here</a> to sign a name to get jackport`;
+      statusText.innerText = `You own ${editions.length} ${COLLECTION_NAME}!! click <a href="https://whoisthisboy.com/" onclick="handler(); return false;">here</a> to sign a name to get jackport😻`;
     } else {
       statusText.innerText = `You don't own any ${COLLECTION_NAME} 😿`;
     }
